@@ -1,0 +1,26 @@
+{
+    "name": "yassine-as/laravel-multi-currency",
+    "description": "Laravel package for multi-currency support with automatic conversion",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "YassineAs\\MultiCurrency\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "laravel/framework": "^9.0|^10.0|^11.0",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "YassineAs\\MultiCurrency\\MultiCurrencyServiceProvider"
+            ],
+            "aliases": {
+                "Currency": "YassineAs\\MultiCurrency\\Facades\\Currency"
+            }
+        }
+    }
+}
