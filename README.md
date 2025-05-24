@@ -372,6 +372,6 @@ Contributions are welcome! Please:
 
 ## 🙏 Credits
 
-- **Author:** [Yassine AS](https://github.com/yassine-as)
+- **Author:** [Yassine AS](https://github.com/Asyassin10)
 - **Exchange Rate APIs:** [ExchangeRate-API](https://exchangerate-api.com), [CurrencyAPI](https://currencyapi.com)
 - **IP Geolocation:** [ip-api.com](http://ip-api.com)
